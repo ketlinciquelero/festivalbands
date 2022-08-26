@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/lv6casp/aCNm74ixy/stepcarousel.js">
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+</script>
+
+<script type="text/javascript">
+stepcarousel.setup({
+    galleryid: 'mygallery', //id of carousel DIV
+    beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+    panelclass: 'panel', //class of panel DIVs each holding content
+    autostep: {enable:false, moveby:1, pause:3000},
+    panelbehavior: {speed:500, wraparound:false, wrapbehavior:'slide', persist:true},
+    defaultbuttons: {enable: true, moveby: 1, leftnav: ['http://i48.tinypic.com/357klf6.png', -40, 120], rightnav: ['http://i45.tinypic.com/2w1tp5l.png', 10, 120]},
+    statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+    contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+</script>
+    <meta charset="UTF-8">
+    <title>Venda de ingressos</title>
+<script type="text/javascript" language="javascript">
+$(function() {
+//    Fuild layout, centering the items
+$('#foo5').carouFredSel({
+width: '100%',
+scroll: 1,
+pauseOnHover: 'resume',
+swipe: {
+onMouse: true,
+onTouch: true}
+});
+});
+</script>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+body {
+    background: url("https://i.imgur.com/B3iJM3S.png") no-repeat fixed center;
+    align-items: center;
+    margin: 0;
+    }
+
+a {
+    color: #fff;
+    }
+
+b,strong {
+    color: #000;
+}
+
+i,em {
+    color: #fff;
+}
+
+h1,h2,h3 {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+
+.titulo {
+    font-family: 'Squada One', cursive;
+    font-size: 130px;
+    color: #FF8500;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    opacity: 0.8;
+    width: 500px;
+    margin-left: 50px;
+    line-height: 0.7;
+    font-weight: 700;
+}
+
+.banda {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    padding: 20px;
+    background-color: #000;
+    opacity: 0.8;
+    margin-top: 50px;
+    margin-left: 180px;
+
+}
+
+
+.osbeatles {
+
+
+}
+
+.osbeatles img {
+    width: 300px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.8;
+
+}
+
+.subtitulo {
+    font-family: 'Squada One', cursive;
+    font-size: 60px;
+    text-align: right;
+    color: #fff;
+    padding-bottom: 50px;
+    opacity: 0.9;
+    margin-top: -180px;
+    width: 300px;
+    margin-left: 55%;
+    line-height: 0.9;
+    transform: rotate(-5deg);
+    margin-bottom: -70px;
+
+}
+
+.textosimagens {
+    width: 350px;
+    height: 250px;
+    font-family: 'calibri';
+    font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.data {
+    font-family: 'Squada One', cursive;
+    font-size: 90px;
+    color: #FF8500;
+    margin-top: -200px;
+    padding-bottom: 50px;
+    padding-left: 70%;
+    opacity: 0.8;
+    line-height: 0.7;
+    vertical-align: text-top;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px 22px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  background-color: #FF8500;
+  color: black;
+  opacity: 0.8;
+  font-family: 'calibri';
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-left: 22%;
+  letter-spacing: 0.1em;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.subtitulomenor {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+    opacity: 0.9;
+    margin-top: -200px;
+    width: 300px;
+    margin-left: 60%;
+    line-height: 0.7;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+.subtitulo2 {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+    opacity: 0.9;
+    margin-top: -210px;
+    width: 300px;
+    margin-left: 62%;
+    line-height: 0.7;
+    text-transform: uppercase;
+
+}
+
+/** MENU TOOLTIP CODE BY www.anyhs-themes.tumblr.com **/
+#anyhs_menu_tooltip {
+text-align: center;
+opacity: 0.5;
+text-transform: uppercase;
+background-color: #000;
+}
+#anyhs_menu_tooltip a {
+
+     display: inline-block;
+     position: relative;
+     font-family: calibri;
+     text-decoration: none;
+     padding: 10px;
+     width: 180px;
+     font-size: 18px;
+     text-align: center;
+     margin: 1px -2px;
+     transition: .5s;
+     color: #fff; /** cor da fonte do botão **/
+}
+#anyhs_menu_tooltip a span {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;}
+
+#anyhs_menu_tooltip a:hover {
+    letter-spacing: 2px;
+}
+#anyhs_menu_tooltip a span u {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+    opacity: 0;
+    transition: .5s;
+    transform: scale(0.5);
+    border-radius: 3px;
+    font-size: 30px;
+    z-index: 8;
+    color: #FF8500; /** cor da fonte do tooltip **/
+}
+#anyhs_menu_tooltip a span u:before {content: ""; border: 0px solid transparent; border-width: 5px; position: absolute; bottom: 100%; left: 40%;
+       border-bottom-color: none; /** cor da setinha do tooltip **/
+}
+#anyhs_menu_tooltip a:hover span u {opacity: 1; transform: scale(1.0); margin-top: 10px; letter-spacing: 0px;}
+/** MENU TOOLTIP CODE BY www.anyhs-themes.tumblr.com **/
+
+
+</style>
+<body>
+<div id="menu"><!-- MENU TOOLTIP CODE BY www.anyhs-themes.tumblr.com --><nav id="anyhs_menu_tooltip"><!-- botao1 --><a href="#">
+Página inicial
+<span> <u><i class="ph-house"></i></u> </span></a><!-- botao1 --><!-- botao2 --><a href="#">
+Compras
+<span> <u><i class="ph-shopping-bag"></i></u> </span></a><!-- botao3 --><!-- botao4 --><a href="#">
+Pacotes
+<span> <u><i class="ph-package"></i></u> </span></a><!-- botao4 --><!-- botao5 --><a href="LINK_DO_BOTAO">
+Minha conta
+<span> <u><i class="ph-user"></i></u> </span></a><!-- botao5 --></nav><!-- #anyhs-menu_tooltip --><!-- MENU TOOLTIP CODE BY www.anyhs-themes.tumblr.com --></div>
+<div class="titulo">
+    Venda de ingressos
+</div>
+<div class="subtitulo">
+    NX Zero (e o CPM22 também) está de volta!
+</div>
+<section class="banda">
+<div class="osbeatles"><img src="https://clube-static.clubegazetadopovo.com.br/portal/wp-content/uploads/2020/04/materiasrepositorio-1508339382.jpeg"></div>
+<div class="textosimagens">
+    NX Zero é uma banda brasileira de rock alternativo formada em 2001 na cidade de São Paulo. Composta por Di Ferrero (vocal), Gee Rocha (guitarra e vocal de apoio), Dani Weksler (bateria), Caco Grandino (baixo) e Fi Ricardo (guitarra). A partir de 2014 teve como membro de apoio Rafael Mimi nos teclados, embora o músico não seja creditado oficialmente ou estrele os encartes dos álbuns.
+</div>
+
+</section>
+<div class="data">
+    16/08
+</div>
+<button class="button button1"><b>Comprar</b></button>
+<section class="banda">
+<div class="osbeatles"><img src="https://s2.glbimg.com/bZ_ZUb1_gIiOPOUaizwUWv96F1Q=/620x413/e.glbimg.com/og/ed/f/original/2020/08/17/image_PXyPrWW.png"></div>
+<div class="textosimagens">
+CPM 22 é uma banda de rock brasileira formada em 1995 na cidade de Barueri, São Paulo. A banda é formada atualmente por Badauí (vocal), Luciano Garcia (guitarra), Phil Fargnoli (guitarra), Ali Zaher (baixo) e Daniel Siqueira (bateria). O CPM 22 foi uma das poucas bandas do hardcore brasileiro a ganhar um disco de ouro e fazer sucesso no mainstream, e com isso, abriu as portas para uma nova geração de bandas de rock brasileiras. Em 2008, ganharam um Grammy Latino de melhor álbum de rock brasileiro.</div>
+</section>
+<div class="data">
+    18/08
+</div>
+<button class="button button1"><b>Comprar</b></button>
+</section>
+<div class="subtitulomenor">
+    São Paulo
+</div>
+<div class="subtitulo2">
+    Rio de Janeiro
+</div>
+</body>
+</html>
